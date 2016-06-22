@@ -77,6 +77,7 @@
 					// Bind button handlers
 					$('.js-file-load').on('click', function() {
 						console.log("File clicked");
+						var fileButton = $(this);
 
 						var hash = $(this).data('hash');
 						var data = {
@@ -88,6 +89,7 @@
 							if (resp.status == "okay") {
 								self.hash = hash;
 								self.set_contents(resp['contents']);
+								self.set_filename(fileButton.html());
 							} else {
 								alert('Failed to load!');
 							}
@@ -100,7 +102,11 @@
 				SimpleEditor.prototype.set_contents = function(text) {
 					var self = this;
 					$("#edit-area").val(text);
-					// $("#edit-area").html(text);
+				};
+
+				SimpleEditor.prototype.set_filename = function(text) {
+					var self = this;
+					$("#js-editor-filename").html(text);
 				};
 
 				var configElement = $("#editor-config");
@@ -254,8 +260,6 @@
 
 				font-size: 14pt;
 
-				cursor: pointer;
-
 				vertical-align: top;
 			}
 
@@ -302,8 +306,8 @@
 								<span class="glyphicon glyphicon-floppy-save"></span>
 								Save
 							</div>
-							<div class="filename">
-								Name of the file.txt
+							<div class="filename" id="js-editor-filename">
+								No File Loaded
 							</div>
 							<div class="warning">
 								<strong>Warning:</strong><br />
