@@ -25,6 +25,8 @@ VCS repository in your composer.json file, like this:
     "require": {
         "dubedev/util-simple-editor": "dev-master"
     }
+    
+Don't forget to run "composer update" in your development environment and "composer install" when you push it to production.
 
 Usage
 -----
