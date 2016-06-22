@@ -1,8 +1,6 @@
 Web-Based Text Editor for PHP / Composer
 ========================================
 
-**Currently in development!**
-
 This is a very simple PHP Composer package which will generate an
 edit page for a specified plaintext file, or list of files.
 
