@@ -10,3 +10,9 @@ This is useful for allowing somebody to make changes to
 text or configuration on a framework-based web project
 without needing to use any technical tools to access the
 filesystem.
+
+Things to Do
+------------
+- Improve architecture of example editor's JavaScript code
+- Clean up PHP code
+- Document PHP code
