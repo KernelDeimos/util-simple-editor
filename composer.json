@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Dubedev\\Util\\SimpleEditor\\": "src"
+            "DubeDev\\Util\\SimpleEditor\\": "src"
         }
     }
 }
