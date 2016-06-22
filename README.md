@@ -1,5 +1,5 @@
-DubéDev Simple Editor for PHP Projects
-======================================
+Web-Based Text Editor for PHP / Composer
+========================================
 
 **Currently in development!**
 
