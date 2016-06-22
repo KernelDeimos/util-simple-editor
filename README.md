@@ -3,8 +3,10 @@ DubéDev Simple Editor for PHP Projects
 
 **Currently in development!**
 
-This is a very simple PHP package which will generate an
+This is a very simple PHP Composer package which will generate an
 edit page for a specified plaintext file, or list of files.
+
+I had difficulty finding something like this that didn't depend an a specific framework or CMS. This packages only requires Composer, which can be used with or without any of the popular frameworks and CMSes. It may also be compatible with your own autoloader, or you can manually include each file if you really want to.
 
 This is useful for allowing somebody to make changes to
 text or configuration on a framework-based web project
