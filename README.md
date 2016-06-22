@@ -1,7 +1,7 @@
 DubéDev Simple Editor for PHP Projects
 ======================================
 
-**Currently in development!** This package will have stuff in it soon.
+**Currently in development!**
 
 This is a very simple PHP package which will generate an
 edit page for a specified plaintext file, or list of files.
